@@ -1,5 +1,5 @@
-Run outside of PW w/ `npm run start` => No issues
-Run within PW test w/ `npm run test` => Error
+- Run outside of PW w/ `npm run start` => No issues
+- Run within PW test w/ `npm run test` => Error
 
 ```
 Error: Objects are not valid as a React child (found: object with keys {__pw_type, type, props, key}). If you meant to render a collection of children, use an array instead.
