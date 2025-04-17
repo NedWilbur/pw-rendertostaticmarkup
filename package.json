@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "start": "npm run build && node ./dist/build.js",
-    "test": "npx playwright test -c playwright-ct.config.ts"
+    "test": "npx playwright test -c playwright.config.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,6 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@playwright/experimental-ct-react": "^1.51.1",
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.2",
